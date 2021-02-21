@@ -1,17 +1,14 @@
 <script>
 export default {
-  onLaunch: function () {
-    console.log('App Launch')
+  onLaunch() {
   },
-  onShow: function () {
-    console.log('App Show')
+  onShow() {
   },
-  onHide: function () {
-    console.log('App Hide')
+  onHide() {
   }
 }
 </script>
 
 <style lang="scss">
-  @import "~uview-ui/theme.scss";
+@import "~uview-ui/index.scss";
 </style>
